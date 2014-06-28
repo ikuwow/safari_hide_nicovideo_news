@@ -28,8 +28,8 @@
 		</array>
 		<key>Whitelist</key>
 		<array>
-			<string>http://www.nicovideo.jp/*</string>
-			<string>https://www.nicovideo.jp/*</string>
+			<string>http://www.nicovideo.jp/watch/*</string>
+			<string>https://www.nicovideo.jp/watch/*</string>
 		</array>
 	</dict>
 	<key>Description</key>
