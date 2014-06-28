@@ -9,7 +9,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>HideNicoVideoNews</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.hidenicovideonews</string>
+	<string>com.ikuwow.hidenicovideonews</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -24,15 +24,31 @@
 		<dict/>
 		<key>Stylesheets</key>
 		<array>
-			<string></string>
+			<string>removenews.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://www.nicovideo.jp/*</string>
+			<string>https://www.nicovideo.jp/*</string>
 		</array>
 	</dict>
+	<key>Description</key>
+	<string>A Safari extention that hides news bar of nicovideo player. ニコニコ動画のプレイヤーの上のニュースを消す機能拡張。</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
 	<dict>
 		<key>Website Access</key>
-		<dict/>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>www.nicovideo.jp</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
 	</dict>
 	<key>Website</key>
 	<string>http://www.ikuwow.com/</string>
